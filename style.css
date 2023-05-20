@@ -1,0 +1,154 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+      margin: 0;
+      margin-bottom: 100px;
+      padding: 0;
+      background-color:whitesmoke;
+      
+  }
+  
+  
+  
+  /* navbar */
+  nav{
+    
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: black;
+   
+}
+  
+  header{
+      background-color: black;
+  }
+  
+  .navbar a{
+      text-decoration: none;
+      color:white;
+  }
+  
+  .logo a:hover, ul li a:hover{
+      color: aqua;
+  }
+  
+  
+
+  
+  .navbar{
+       display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-right: 0px;
+      margin-left: 0px;
+      padding-left: 10px;
+      padding-right: 10px;
+  
+  
+  }
+  
+  .list-items li{
+      display: inline-block;
+      margin-right: 10px;
+  }
+  
+  li {
+      list-style: none;
+  }
+  
+  div ul li a:link{
+      text-decoration: none;
+      color:white;
+  }
+  
+  
+  /* table & registration common styles*/
+  
+  .table-sec , .registration-sec{
+      margin-left: 25%;
+      background-color: white;
+      width:50%;
+       box-shadow: 0 0 5px rgb(193, 184, 184);
+  }
+  
+  .table-container, .form-container{
+      margin-left:20px ;
+      padding-bottom: 10px;
+      
+  }
+  
+  .table-container h1, .form-container h1{
+      margin-top:50px ;
+      padding-top: 50px;
+  }
+  
+  
+  /* table */
+  
+  #main-table{
+      width: 95%;
+  }
+  
+  table, td , th {
+      border:1px solid rgba(173, 174, 171, 0.927);
+     
+  }
+  
+  td , th{
+      padding:10px;
+  }
+  
+  table,th,tbody,td{
+      border-spacing: 0;
+      
+  } 
+  
+  .nested-table td{
+      
+      padding: 7px;
+      margin: 15px;
+  }
+  
+  .table-sec{
+      background-color: white;
+      width: 50%;
+  }
+  
+  /* form */
+  
+  /* .reg-form{
+      margin-left: 25%;
+      background-color: white;
+      width:50%;
+  } */
+  
+  
+  form div input{
+      width: 95%;
+      padding: 7px;
+      border:1px solid rgb(227, 216, 216)
+      
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border:2px solid skyblue;
+    
+  
+  }
+  
+  input[type="text"]:valid , input[type="email"]:valid{
+    background-color:  rgb(228, 240, 251);
+  }
+  
+  #register-btn{
+      background-color: black;
+      color: white;
+      width: 97.5%;
+  }
+  
+  
